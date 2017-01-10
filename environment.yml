@@ -17,7 +17,7 @@ dependencies:
     - nutch-python>=1.11
     - elasticnutch>=1.11
     - ache=0.3.0
-    - django
+    - django=1.7.3
     - gunicorn
     - pytest
     - pip
@@ -40,4 +40,4 @@ dependencies:
         - elasticsearch
         - supervisor
         - djangorestframework
-        - django-filter
+        - django-filter==0.10

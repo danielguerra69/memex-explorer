@@ -4,7 +4,7 @@
 # utilization of cached steps.
 #
 # Note: As of 2015/03/05 this is Ubuntu 14.04.
-FROM ubuntu
+FROM ubuntu:14.04
 MAINTAINER Aron Ahmadia <aahmadia@continuum.io>
 
 #------------ Install development software --------------#
@@ -34,7 +34,8 @@ USER explorer
 WORKDIR /home/explorer
 RUN wget https://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh
 RUN bash ./Miniconda-latest-Linux-x86_64.sh -b
-RUN git clone https://github.com/memex-explorer/memex-explorer
+RUN echo "from here"
+RUN git clone https://github.com/danielguerra69/memex-explorer
 
 WORKDIR /home/explorer/memex-explorer/
 

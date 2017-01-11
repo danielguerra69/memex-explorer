@@ -34,6 +34,7 @@ USER explorer
 WORKDIR /home/explorer
 RUN wget https://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh
 RUN bash ./Miniconda-latest-Linux-x86_64.sh -b
+RUN echo "Hi there"
 RUN git clone https://github.com/danielguerra69/memex-explorer
 
 WORKDIR /home/explorer/memex-explorer/

@@ -41,3 +41,4 @@ dependencies:
         - supervisor
         - djangorestframework
         - django-filter==0.10
+        - django-configurations

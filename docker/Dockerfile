@@ -147,4 +147,4 @@ WORKDIR /home/explorer/memex-explorer/source
 ENV HTTP_PROTOCOL http
 ENV WS_PROTOCOL ws
 ENV INLINE 1
-ENTRYPOINT "supervisord"
+CMD ["supervisord"]

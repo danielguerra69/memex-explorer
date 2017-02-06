@@ -17,7 +17,11 @@ dependencies:
     - nutch-python>=1.11
     - elasticnutch>=1.11
     - ache=0.3.0
+<<<<<<< HEAD
     - django=1.9
+=======
+    - django
+>>>>>>> parent of d6bdeb7... django version + filter version
     - gunicorn
     - pytest
     - pip
@@ -40,4 +44,4 @@ dependencies:
         - elasticsearch
         - supervisor
         - djangorestframework
-        - django-filter==0.10
+        - django-filter
